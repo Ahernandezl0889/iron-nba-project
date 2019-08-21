@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/128139.jpg)
+}
+.cards-container {
+    display: flex;
+    padding:10% 20%;
+    justify-content: space-around;
+}
+
+.cards-container img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text{
+    color:white;
+}
+
+
+.imgteams {
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+    /* text-align: center;
+    width: 400px;
+    height: 600px */
+}

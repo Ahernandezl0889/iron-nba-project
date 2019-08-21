@@ -1,0 +1,15 @@
+
+    <h1>Players</h1>
+ 
+<div class="cards-container"> 
+    {{#each players}}
+    {{!-- to set the partials, playerCard --}}
+   
+ {{> playerCard this}} 
+ {{/each}}
+ </div>
+
+
+ {{!--we only wanna use partials for this page only --}}
+ {{!-- we call the partial --}}
+ 
